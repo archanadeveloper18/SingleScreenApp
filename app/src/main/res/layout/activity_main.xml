@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:src="@drawable/singaporss"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"/>
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_below="@id/photo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Arch Tours &amp; Travels" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/text1"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="We work together to success your dream !"/>
+
+    <ImageView
+        android:id="@+id/photo2"
+        android:src="@drawable/rsz_500_f_134497666_0fohhy2vdruoaegdavl6bugs1qrbr6zh"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="8dp"
+        android:text="12345 S. HuffNPuff"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/text3"
+        android:layout_marginLeft="80dp"
+        android:text="Phoenix, AZ 85286"/>
+
+    <ImageView
+        android:id="@+id/photo1"
+        android:src="@drawable/rsz_rsz_phone21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp"/>
+
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:layout_toRightOf="@id/photo1"
+        android:textSize="22sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:autoLink="phone"
+        android:text="123 456 7890"/>
+
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@id/text5"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:text="Hours:9AM-5PM" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text6"
+        android:layout_marginLeft="135dp"
+        android:layout_marginBottom="8dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mon-Fri"/>
+
+</RelativeLayout>
