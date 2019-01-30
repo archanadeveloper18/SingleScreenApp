@@ -1,7 +1,7 @@
 # SingleScreenApp
 A-single screen app which shows information about tour &amp; travels. This is my first project in Android Studio
 
-SUGESSETED APP IDEAS:
+## SUGESSETED APP IDEAS:
 
 
 ->Details about a small business in your neighborhood
@@ -13,7 +13,7 @@ SUGESSETED APP IDEAS:
 ->Info about a special interest group (like a club or sports team) you’re part of and how new members can sign up
 
 
-REQUIREMENTS:
+## REQUIREMENTS:
 
 
 ->Business name
