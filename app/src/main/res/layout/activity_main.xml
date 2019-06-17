@@ -24,7 +24,8 @@
         android:layout_below="@id/photo"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Arch Tours &amp; Travels" />
-
+    
+//This shows the slogon of the company.
     <TextView
         android:id="@+id/text2"
         android:layout_width="wrap_content"
