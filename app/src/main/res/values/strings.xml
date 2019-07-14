@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Single Screen App</string>
+    <string name="app_name">My Card</string>
+    
+     <string name="name">Archana Jha</string>
+    <string name="emailaddress">archanadeveloper18@gmail.com</string>
+    <string name="phonenumber">123 (456) (7892) </string>
+    <string name="profession">Software Engineer</string>
+    <string name="address">12345 S. HuffNPuff \n Phoenix, AZ 85286</string>
 </resources>
